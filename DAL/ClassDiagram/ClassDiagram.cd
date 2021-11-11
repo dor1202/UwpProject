@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DAL.Classes.Exceptions.ItemExceptions" Collapsed="true">
+    <Position X="11.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Exceptions\ItemExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.Classes.Exceptions.WrongPassException" Collapsed="true">
+    <Position X="11.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Exceptions\WrongPassException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.Classes.AbstractItem" Collapsed="true">
+    <Position X="8" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAgAIACAIAAAQAEAKAAAAAAAAAwAAAACQ=</HashCode>
+      <FileName>Classes\Items\AbstractItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.Classes.Book" Collapsed="true">
+    <Position X="9" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Items\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.Classes.Journal" Collapsed="true">
+    <Position X="6.75" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Classes\Items\Journal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DAL.Classes.PasswordCheck.PasswordBank" Collapsed="true">
+    <Position X="13.25" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Classes\PasswordCheck\PasswordBank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="DAL.Classes.genre" Collapsed="true">
+    <Position X="11.5" Y="3" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAgAAAAAAIAAAEAIQBAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Classes\Items\genre.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="DAL.Classes.dele" Collapsed="true">
+    <Position X="11.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Items\AbstractItem.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

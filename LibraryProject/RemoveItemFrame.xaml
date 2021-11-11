@@ -1,0 +1,27 @@
+﻿<Page
+    x:Class="LibraryProject.RemoveItemFrame"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LibraryProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid x:Name="backgroundGrid">
+            <Image x:Name="background" Margin="0,0,0,0" Source="/Assets/Wallpapers/Dark Brown Wood Shelves iPhone 5 Wallpaper.png"/>
+            <Button x:Name="submitBtn" Content="Submit" Margin="59,576,0,0" VerticalAlignment="Top" Height="47" Width="93" FontFamily="Ink Free" CornerRadius="10" Background="#FF806C37" Click="Submit_Button_Click"/>
+            <Button x:Name="backBtn" Content="Back" Margin="184,576,0,0" VerticalAlignment="Top" Height="47" Width="93" FontFamily="Ink Free" CornerRadius="10" Background="#FF806C37" Click="Back_Button_Click"/>
+        </Grid>
+        <TextBlock x:Name="AppName" FontFamily="Ink Free" TextAlignment="Center" HorizontalAlignment="Left" Margin="17,86,0,0" Text="Remove:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Height="52" Width="148" FontSize="36"/>
+        <ScrollViewer 
+        Background="LightGray" 
+        VerticalScrollBarVisibility="Auto" Margin="0,155,0,93"
+        >
+            <StackPanel x:Name="ScrollItems" Orientation="Vertical" Padding="50">
+
+            </StackPanel>
+        </ScrollViewer>
+    </Grid>
+</Page>

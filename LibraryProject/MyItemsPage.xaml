@@ -1,0 +1,20 @@
+﻿<Page
+    x:Class="LibraryProject.MyItemsPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LibraryProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Image Margin="0,0,0,0" Source="/Assets/Wallpapers/Dark Brown Wood Shelves iPhone 5 Wallpaper.png"/>
+        <TextBlock x:Name="booksTxt" FontFamily="Ink Free" TextAlignment="Center" HorizontalAlignment="Left" Margin="20,118,0,0" Text="Books:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Height="34" Width="94" FontSize="24"/>
+        <TextBlock x:Name="journalTxt" FontFamily="Ink Free" TextAlignment="Center" HorizontalAlignment="Left" Margin="20,353,0,0" Text="Journal:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Height="34" Width="94" FontSize="24"/>
+        <Button x:Name="menu_btn" Content="Return to the menu" FontFamily="Ink Free" Click="menu_btn_Click" Margin="0,549,0,0" VerticalAlignment="Top" FontSize="12" Background="#FF806C37" CornerRadius="10" HorizontalAlignment="Center"/>
+        <Grid x:Name="itemShowenGrid">
+
+        </Grid>
+    </Grid>
+</Page>

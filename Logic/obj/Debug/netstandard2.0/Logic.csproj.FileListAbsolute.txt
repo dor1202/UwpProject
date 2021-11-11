@@ -1,0 +1,8 @@
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\Logic\bin\Debug\netstandard2.0\Logic.deps.json
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\Logic\bin\Debug\netstandard2.0\Logic.dll
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\Logic\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\Logic\obj\Debug\netstandard2.0\Logic.csprojAssemblyReference.cache
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\Logic\obj\Debug\netstandard2.0\Logic.AssemblyInfoInputs.cache
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\Logic\obj\Debug\netstandard2.0\Logic.AssemblyInfo.cs
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\Logic\obj\Debug\netstandard2.0\Logic.csproj.CopyComplete
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\Logic\obj\Debug\netstandard2.0\Logic.csproj.CoreCompileInputs.cache

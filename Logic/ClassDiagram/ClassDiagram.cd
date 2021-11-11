@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LibraryProject.Classes.BookLib" Collapsed="true">
+    <Position X="10.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAEIAAAAAAAAAAAAAEAAAAAAAAAA=</HashCode>
+      <FileName>Classes\BookLib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.CreateXML" Collapsed="true">
+    <Position X="12" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAgCAAAQAAAAAAAAAIAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Classes\CreateXML.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.ItemCollection" Collapsed="true">
+    <Position X="8.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAACAAAAAAAAAAAACCAAgABAAAAAAAAEAAAAAAAEAQA=</HashCode>
+      <FileName>Classes\ItemCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.AbstractItem" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAgAIACAIAAAQAEACAAAAQAAAAQAAAAAA=</HashCode>
+      <FileName>Classes\Items\AbstractItem.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.Book" Collapsed="true">
+    <Position X="3.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEgAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Items\Book.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.Journal" Collapsed="true">
+    <Position X="6" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAAAAgAAAAAAAAA=</HashCode>
+      <FileName>Classes\Items\Journal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.Exceptions.ItemExceptions" Collapsed="true">
+    <Position X="10.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Exceptions\ItemExceptions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.Exceptions.WrongPassException" Collapsed="true">
+    <Position X="10.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Exceptions\WrongPassException.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.PasswordCheck.PasswordBank" Collapsed="true">
+    <Position X="12" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Classes\PasswordCheck\PasswordBank.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.Search.Search" Collapsed="true">
+    <Position X="8.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Classes\Search\Search.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.SortItemsOnPage.Basic" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAABAAAAACAAAAAAAAAAAAAIAAAAAAAAAA=</HashCode>
+      <FileName>Classes\SortItemsOnPage\Basic.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Enum Name="LibraryProject.Classes.genre" Collapsed="true">
+    <Position X="8.5" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAgAAAAAAIAAAEAIQBAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Classes\Items\genre.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

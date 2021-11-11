@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>LAPTOP-RL9PP4S5</Machine>
+    <WindowsUser>schre</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Debug|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>1fd08ff7-699b-46eb-a8cc-9b33216c31cf</PackageIdentityName>
+    <PackageIdentityPublisher>CN=schre</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\obj\x86\Debug\</IntermediateOutputPath>
+    <RemoteDeploymentType></RemoteDeploymentType>
+    <PackageRegistrationPath></PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\bin\x86\Debug\AppX</LayoutDir>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\bin\x86\Debug\Core\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\bin\x86\Debug\LibraryProject.exe">
+      <PackagePath>entrypoint\LibraryProject.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\schre\.nuget\packages\runtime.win10-x86.microsoft.netcore.universalwindowsplatform\6.2.9\runtimes\win10-x86\lib\uap10.0.15138\System.Runtime.dll">
+      <PackagePath>System.Runtime.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\DAL\bin\Debug\netstandard2.0\DAL.dll">
+      <PackagePath>DAL.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\bin\10.0.18362.0\XamlCompiler\Microsoft.UI.Xaml.Markup.winmd">
+      <PackagePath>Microsoft.UI.Xaml.Markup.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\DAL\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd">
+      <PackagePath>Windows.Foundation.UniversalApiContract.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\Books\Untitled-2-1.jpg">
+      <PackagePath>Assets\Books\Untitled-2-1.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\Books\Untitled-2-10.jpg">
+      <PackagePath>Assets\Books\Untitled-2-10.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\Books\Untitled-2-11.jpg">
+      <PackagePath>Assets\Books\Untitled-2-11.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\Books\Untitled-2-2.jpg">
+      <PackagePath>Assets\Books\Untitled-2-2.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\Books\Untitled-2-3.jpg">
+      <PackagePath>Assets\Books\Untitled-2-3.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\Books\Untitled-2-5.jpg">
+      <PackagePath>Assets\Books\Untitled-2-5.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\Books\Untitled-2-8.jpg">
+      <PackagePath>Assets\Books\Untitled-2-8.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\Books\Untitled-2-9.jpg">
+      <PackagePath>Assets\Books\Untitled-2-9.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\FlipView\daniel-cheung-cPF2nlWcMY4-unsplash.jpg">
+      <PackagePath>Assets\FlipView\daniel-cheung-cPF2nlWcMY4-unsplash.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\FlipView\markus-spiske-NjZqlHEKM8U-unsplash.jpg">
+      <PackagePath>Assets\FlipView\markus-spiske-NjZqlHEKM8U-unsplash.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\FlipView\mink-mingle-Riz1qAplMQk-unsplash.jpg">
+      <PackagePath>Assets\FlipView\mink-mingle-Riz1qAplMQk-unsplash.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\FlipView\samuel-austin-0tTA6cewPr8-unsplash.jpg">
+      <PackagePath>Assets\FlipView\samuel-austin-0tTA6cewPr8-unsplash.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\FlipView\stijn-swinnen-qwe8TLRnG8k-unsplash.jpg">
+      <PackagePath>Assets\FlipView\stijn-swinnen-qwe8TLRnG8k-unsplash.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\Journals\japa_cover.jpg">
+      <PackagePath>Assets\Journals\japa_cover.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\Journals\jsep_cover.jpg">
+      <PackagePath>Assets\Journals\jsep_cover.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\Wallpapers\Asian Architecture Sehlf iPhone Wallpaper.jpg">
+      <PackagePath>Assets\Wallpapers\Asian Architecture Sehlf iPhone Wallpaper.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\Wallpapers\Dark Wood Shelves iPhone Wallpaper.jpg">
+      <PackagePath>Assets\Wallpapers\Dark Wood Shelves iPhone Wallpaper.jpg</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\Journals\The-Journals-of-Theological-Studies.png">
+      <PackagePath>Assets\Journals\The-Journals-of-Theological-Studies.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\View\584c984a1f591a0c7cef3d55.png">
+      <PackagePath>Assets\View\584c984a1f591a0c7cef3d55.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\View\5a00d35d0e8525eec2752fd8.png">
+      <PackagePath>Assets\View\5a00d35d0e8525eec2752fd8.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\View\5a00d3720e8525eec2752fd9.png">
+      <PackagePath>Assets\View\5a00d3720e8525eec2752fd9.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\View\png-oil-lamp-catalog-petrol-lamps-2935.png">
+      <PackagePath>Assets\View\png-oil-lamp-catalog-petrol-lamps-2935.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\Wallpapers\Dark Brown Wood Shelves iPhone 5 Wallpaper.png">
+      <PackagePath>Assets\Wallpapers\Dark Brown Wood Shelves iPhone 5 Wallpaper.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\LockScreenLogo.scale-200.png">
+      <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\Square44x44Logo.targetsize-24_altform-unplated.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-24_altform-unplated.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\Properties\Default.rd.xml">
+      <PackagePath>Properties\Default.rd.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\bin\x86\Debug\LibraryProject.xr.xml">
+      <PackagePath>LibraryProject.xr.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\bin\x86\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\bin\x86\Debug\AddItemFrame.xbf">
+      <PackagePath>AddItemFrame.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\bin\x86\Debug\BootPage.xbf">
+      <PackagePath>BootPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\bin\x86\Debug\DiscountPage.xbf">
+      <PackagePath>DiscountPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\bin\x86\Debug\EditItemPage.xbf">
+      <PackagePath>EditItemPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\bin\x86\Debug\EndDiscountPage.xbf">
+      <PackagePath>EndDiscountPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\bin\x86\Debug\LibrarianPage.xbf">
+      <PackagePath>LibrarianPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\bin\x86\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\bin\x86\Debug\MyItemsPage.xbf">
+      <PackagePath>MyItemsPage.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\bin\x86\Debug\RemoveItemFrame.xbf">
+      <PackagePath>RemoveItemFrame.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\bin\x86\Debug\StartScreen.xbf">
+      <PackagePath>StartScreen.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Program Files %28x86%29\Windows Kits\10\UnionMetadata\10.0.18362.0\Windows.winmd">
+      <PackagePath>WinMetadata\Windows.winmd</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\bin\x86\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\SelaCollege\project o-o design &amp; .NET framework\LibraryProject\LibraryProject\bin\x86\Debug\Core\LibraryProject.exe">
+      <PackagePath>LibraryProject.exe</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\schre\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\schre\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\schre\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\schre\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\schre\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx">
+      <Name>Microsoft.NET.CoreRuntime.2.2</Name>
+      <Version>2.2.27902.3</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreRuntime.2.2, MinVersion = 2.2.27902.3, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\schre\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreRuntime.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\schre\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\schre\.nuget\packages\runtime.win10-x86.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\schre\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\schre\.nuget\packages\runtime.win10-x64.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\schre\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx">
+      <Name>Microsoft.NET.CoreFramework.Debug.2.2</Name>
+      <Version>2.2.27909.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.CoreFramework.Debug.2.2, MinVersion = 2.2.27909.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\schre\.nuget\packages\runtime.win10-arm.microsoft.net.uwpcoreruntimesdk\2.2.9\build\..\tools\Appx\Microsoft.NET.CoreFramework.Debug.2.2.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM\Microsoft.VCLibs.ARM.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\ARM64\Microsoft.VCLibs.ARM64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x64\Microsoft.VCLibs.x64.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00.Debug</Name>
+      <Version>14.0.27810.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00.Debug, MinVersion = 14.0.27810.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Debug\x86\Microsoft.VCLibs.x86.Debug.14.00.appx</AppxLocation>
+      <MoreInfo></MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

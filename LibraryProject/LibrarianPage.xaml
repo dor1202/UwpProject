@@ -1,0 +1,82 @@
+﻿<Page
+    x:Class="LibraryProject.LibrarianPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:LibraryProject"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <Grid x:Name="backgroundGrid">
+            <Image x:Name="background" Margin="0,0,0,0" Source="/Assets/Wallpapers/Dark Brown Wood Shelves iPhone 5 Wallpaper.png"/>
+            <StackPanel x:Name="dailyFlipView" MaxWidth="400" Margin="0,378,0,164" Background="BlanchedAlmond">
+                <FlipView>
+                    <StackPanel>
+                        <Grid Height="69">
+                            <Image Source="/Assets/FlipView/markus-spiske-NjZqlHEKM8U-unsplash.jpg" Margin="0,-14,0,-29" Stretch="Fill"/>
+                        </Grid>
+                        <Border BorderBrush="White" BorderThickness="0.5" Width="200" Height="26">
+                            <TextBlock x:Name="ItemsAvilableTxt" Text="Items avilable:" HorizontalAlignment="Center" Width="200" FontFamily="Ink Free" FontWeight="Bold" FontSize="22" Height="28" TextAlignment="Center"/>
+
+                        </Border>
+                    </StackPanel>
+                    <StackPanel>
+                        <Grid Height="69">
+                            <Image Source="/Assets/FlipView/samuel-austin-0tTA6cewPr8-unsplash.jpg" Margin="0,-14,0,-29" Stretch="Fill"/>
+                        </Grid>
+                        <Border BorderBrush="Black" BorderThickness="0.5" Width="200" Height="26">
+                            <TextBlock x:Name="BooksAvilableTxt" Text="Books avilable:" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" FontFamily="Ink Free" FontWeight="Bold" Foreground="Black" FontSize="22" TextAlignment="Center"/>
+                        </Border>
+                    </StackPanel>
+                    <StackPanel>
+                        <Grid Height="69">
+                            <Image Source="/Assets/FlipView/stijn-swinnen-qwe8TLRnG8k-unsplash.jpg" Margin="0,-14,0,-29" Stretch="Fill"/>
+                        </Grid>
+                        <Border BorderBrush="Black" BorderThickness="0.5" Width="200" Height="26">
+                            <TextBlock x:Name="JournalsAvilableTxt" Text="Journals avilable:" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" FontFamily="Ink Free" FontWeight="Bold" FontSize="22" TextAlignment="Center"/>
+                        </Border>
+                    </StackPanel>
+                    <StackPanel>
+                        <Grid Height="69">
+                            <Image Source="/Assets/FlipView/mink-mingle-Riz1qAplMQk-unsplash.jpg" Margin="0,-14,0,-29" Stretch="Fill"/>
+                        </Grid>
+                        <Border BorderBrush="Black" BorderThickness="0.5" Width="200" Height="26">
+                            <TextBlock x:Name="ItemsSoldTxt" Text="Items sold:" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" FontFamily="Ink Free" FontWeight="Bold" FontSize="22" TextAlignment="Center"/>
+                        </Border>
+                    </StackPanel>
+                    <StackPanel>
+                        <Grid Height="69">
+                            <Image Source="/Assets/FlipView/daniel-cheung-cPF2nlWcMY4-unsplash.jpg" Margin="0,-14,0,-29" Stretch="Fill"/>
+                        </Grid>
+                        <Border BorderBrush="Black" BorderThickness="0.5" Width="200" Height="26">
+                            <TextBlock x:Name="ItemSumTxt" Text="Items sum:" HorizontalAlignment="Center" VerticalAlignment="Top" Width="200" FontFamily="Ink Free" FontWeight="Bold" FontSize="22" TextAlignment="Center"/>
+                        </Border>
+                    </StackPanel>
+                </FlipView>
+            </StackPanel>
+            <Button x:Name="addBtn" Content="Add item" FontFamily="Ink Free" FontSize="12" Background="#FF806C37" CornerRadius="10" Margin="42,189,0,0" VerticalAlignment="Top" Height="51" Width="100" Click="Add_Item_Button_Click"/>
+            <Button x:Name="removeBtn" Content="Delete item" FontFamily="Ink Free" FontSize="12" Background="#FF806C37" CornerRadius="10" Margin="218,187,0,0" VerticalAlignment="Top" Height="51" Width="100" Click="Remove_Item_Button_Click"/>
+            <Button x:Name="saleBtn" Content="Start a discount" FontFamily="Ink Free" FontSize="12" Background="#FF806C37" CornerRadius="10" Margin="42,305,0,0" VerticalAlignment="Top" Height="51" Width="100" Click="create_dicount_btn_Click"/>
+            <TextBlock x:Name="AppName" FontFamily="Ink Free" TextAlignment="Center" HorizontalAlignment="Left" Margin="0,87,0,0" Text="Librarian:" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" Height="52" Width="216" FontSize="36"/>
+            <Button x:Name="options_btn" Content="Options" Margin="12,23,0,0" VerticalAlignment="Top" Height="28" Width="61" FontFamily="Ink Free" FontSize="12" Background="#FF806C37" CornerRadius="10">
+                <Button.Flyout>
+                    <MenuFlyout Placement="Bottom">
+                        <MenuFlyoutSubItem x:Name="ManagmentTxt" Text="Utility" FontFamily="Ink Free">
+                            <MenuFlyoutItem x:Name="add_item_btn" Text="Add item" FontFamily="Ink Free" Click="Add_Item_Button_Click"/>
+                            <MenuFlyoutItem x:Name="remove_book_btn" Text="Remove item" FontFamily="Ink Free" Click="Remove_Item_Button_Click"/>
+                            <MenuFlyoutItem x:Name="edit_item_btn" Text="Edit item" FontFamily="Ink Free" Click="edit_item_btn_Click"/>
+                            <MenuFlyoutItem x:Name="create_dicount_btn" Text="Create discount" FontFamily="Ink Free" Click="create_dicount_btn_Click"/>
+                            <MenuFlyoutItem x:Name="end_dicount_btn" Text="End discount" FontFamily="Ink Free" Click="end_dicount_btn_Click"/>
+                        </MenuFlyoutSubItem>
+                        <MenuFlyoutItem x:Name="menu_btn" Text="Return to the menu" FontFamily="Ink Free" Click="menu_btn_Click"/>
+                        <MenuFlyoutSeparator/>
+                        <MenuFlyoutItem Text="quit" FontFamily="Ink Free" Click="MenuFlyoutItem_Click"/>
+                    </MenuFlyout>
+                </Button.Flyout>
+            </Button>
+            <Image Source="/Assets/View/5a00d35d0e8525eec2752fd8.png" Margin="166,250,-11,262"/>
+        </Grid>
+    </Grid>
+</Page>

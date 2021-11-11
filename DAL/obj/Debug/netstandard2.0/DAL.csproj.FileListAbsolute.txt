@@ -1,0 +1,28 @@
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\DAL\bin\Debug\netstandard2.0\DAL.dll
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\DAL\bin\Debug\netstandard2.0\DAL.pdb
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\DAL\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\DAL\obj\Debug\netstandard2.0\DAL.csproj.CopyComplete
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\DAL\obj\Debug\netstandard2.0\DAL.dll
+C:\Users\schre\source\repos\project o-o design & .NET framework\LibraryProject\DAL\obj\Debug\netstandard2.0\DAL.pdb
+C:\SelaCollege\project o-o design & .NET framework\LibraryProject\DAL\bin\Debug\netstandard2.0\DAL.deps.json
+C:\SelaCollege\project o-o design & .NET framework\LibraryProject\DAL\bin\Debug\netstandard2.0\DAL.dll
+C:\SelaCollege\project o-o design & .NET framework\LibraryProject\DAL\bin\Debug\netstandard2.0\DAL.pdb
+C:\SelaCollege\project o-o design & .NET framework\LibraryProject\DAL\bin\Debug\netstandard2.0\Windows.Foundation.UniversalApiContract.winmd
+C:\SelaCollege\project o-o design & .NET framework\LibraryProject\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache
+C:\SelaCollege\project o-o design & .NET framework\LibraryProject\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+C:\SelaCollege\project o-o design & .NET framework\LibraryProject\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+C:\SelaCollege\project o-o design & .NET framework\LibraryProject\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+C:\SelaCollege\project o-o design & .NET framework\LibraryProject\DAL\obj\Debug\netstandard2.0\DAL.csproj.CopyComplete
+C:\SelaCollege\project o-o design & .NET framework\LibraryProject\DAL\obj\Debug\netstandard2.0\DAL.dll
+C:\SelaCollege\project o-o design & .NET framework\LibraryProject\DAL\obj\Debug\netstandard2.0\DAL.pdb
+\\Mac\Home\Desktop\UwpProject\DAL\obj\Debug\netstandard2.0\DAL.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\UwpProject\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\UwpProject\DAL\obj\Debug\netstandard2.0\DAL.AssemblyInfo.cs
+\\Mac\Home\Desktop\UwpProject\DAL\obj\Debug\netstandard2.0\DAL.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\UwpProject\DAL\obj\Debug\netstandard2.0\DAL.dll
+\\Mac\Home\Desktop\UwpProject\DAL\obj\Debug\netstandard2.0\DAL.pdb

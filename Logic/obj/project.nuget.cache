@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "QSYIQ/2MxY5sn28CINmRmEYedEWk7WwWB1vVj8Et9ez9pWSqPH2M/v4E62URKqGoqRQ0BCuBkHqRPm+uzCP8xg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\schre\\source\\repos\\project o-o design & .NET framework\\LibraryProject\\Logic\\Logic.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\schre\\.nuget\\packages\\documentformat.openxml\\2.11.3\\documentformat.openxml.2.11.3.nupkg.sha512",
+    "C:\\Users\\schre\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Users\\schre\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\schre\\.nuget\\packages\\system.io.packaging\\4.7.0\\system.io.packaging.4.7.0.nupkg.sha512",
+    "C:\\Users\\schre\\.nuget\\packages\\system.runtime.windowsruntime\\4.7.0\\system.runtime.windowsruntime.4.7.0.nupkg.sha512",
+    "C:\\Users\\schre\\.nuget\\packages\\system.runtime.windowsruntime.ui.xaml\\4.7.0\\system.runtime.windowsruntime.ui.xaml.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

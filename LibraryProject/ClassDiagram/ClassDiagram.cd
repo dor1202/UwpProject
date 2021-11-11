@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="LibraryProject.Classes.BookLib" Collapsed="true">
+    <Position X="5.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQAAAEAAAAAAAAAAAAAAACAAAAAAAAAA=</HashCode>
+      <FileName>Classes\BookLib.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.CreateXML" Collapsed="true">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AICAIIIAAggAQIAAAAEAAAAABQACQAAAAAAAAAICAAA=</HashCode>
+      <FileName>Classes\CreateXML.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.ItemCollection" Collapsed="true">
+    <Position X="9.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CAAAAAAAAAAAAAAACCBAAQAAAAAAAAAEAAAAAAAEAQA=</HashCode>
+      <FileName>Classes\ItemCollection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.UserInventory" Collapsed="true">
+    <Position X="7.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>CABAAAAEAAAAAAAAAQAAAQQAAAAAAAAAgAAAAAAEAIA=</HashCode>
+      <FileName>Classes\UserData\UserInventory.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.Logic_For_Pages.AddItem.AddItemPageLogic" Collapsed="true">
+    <Position X="4" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAIAAAAQAAEAAAAAAAEAAAAAAAAQAAAAQAAIAA=</HashCode>
+      <FileName>Classes\Logic For Pages\AddItem\AddItemPageLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.Discount.Discount" Collapsed="true">
+    <Position X="9.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAhAAAEAAAACAABAAAIAAAAAAAACBAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Classes\Logic For Pages\Discount\Discount.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.Discount.DiscountLogic" Collapsed="true">
+    <Position X="4" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAgABBAAAAADAAEGEAABAAAEEAAAAAIAABSAAAAQ=</HashCode>
+      <FileName>Classes\Logic For Pages\Discount\DiscountLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.Edit_Item.EditItemLogic" Collapsed="true">
+    <Position X="5.75" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAQABAAAAAAAAAAAAACAAAQAAAAQAAAAA=</HashCode>
+      <FileName>Classes\Logic For Pages\Edit Item\EditItemLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.Logic_For_Pages.End_Discount_Logic.EndDiscountLogic" Collapsed="true">
+    <Position X="7.5" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Classes\Logic For Pages\End Discount\EndDiscountLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.Logic_For_Pages.Remove_Item.RemoveItemLogic" Collapsed="true">
+    <Position X="4" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAA=</HashCode>
+      <FileName>Classes\Logic For Pages\Remove Item\RemoveItemLogic.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LibraryProject.Classes.Search.Search" Collapsed="true">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAEAAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Classes\Search\Search.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
